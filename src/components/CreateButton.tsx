@@ -2,11 +2,9 @@ import { ButtonHTMLAttributes } from "react";
 
 import styles from './CreateButton.module.css';
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
-
-export function CreateButton({...props}: ButtonProps) {
+export function CreateButton({...props}: ButtonHTMLAttributes<HTMLButtonElement> ) {
     return (
-        <button className={styles.button} {...props}>
+        <button className={styles.wrapper} {...props}>
             Criar
         </button>
     ) 

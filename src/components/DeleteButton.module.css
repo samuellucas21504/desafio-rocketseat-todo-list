@@ -1,0 +1,13 @@
+.wrapper {
+    background-color: var(--gray-700);
+    color: var(--gray-300);
+    border-radius: 4px;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    
+    &:hover {
+        background-color: var(--gray-400);
+        color: var(--danger-500);
+    }
+}

@@ -40,5 +40,7 @@ body, input, textarea, button {
 }
 
 button {
+    all: unset;
+    display: inline-block;
     cursor: pointer;
 }

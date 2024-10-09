@@ -1,11 +1,14 @@
-.button {
+.wrapper {
     background-color: var(--blue-700);
-    padding: 1rem;
-    font-size: var(--font-400);
     color: var(--gray-100);
-    font-weight: bold;
+    font-size: var(--font-400);
 
+    font-weight: bold;
+    padding: 1rem;
     border-radius: 0.5rem;
+    height: 1.25rem;
+    width: 3.625rem;
+    text-align: center;
 
     &:hover {
         background-color: var(--blue-500);
